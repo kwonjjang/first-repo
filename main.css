@@ -5,16 +5,56 @@ h4,
 h5,
 h6 {
    font-family: 'NanumSquareExtraBold', san-serif; color : green;
+   letter-spacing: -0.05em;
+
    }
 /*
 red
-
-#
+125.0.0
+#000000
 */
 
 
-p {
+p.subtitle {
   font-family: 'Black Han Sans', sans-serif;
   }
 
+ .main-text {
+   font-weight: 200; 
+   font-size: 20pt;
+   text-align: center;
+   letter-spacing: 0.02em;
+   word-spacing: 1m; 
+   line-height: 2em;
+  }
 
+.box-a {
+  width:100px;
+  height:100px;
+  background-color: green;
+  display:inline-block;
+}
+
+.box-b {
+  width:100px;
+  height:100px;
+  background-color: #c354c4;
+  display:inline-block;
+}
+
+.box-c {
+  width:100px;
+  height:100px;
+  background-color: #5672e1;
+  display:inline-block;
+}
+
+
+.div-pad {
+  padding: 15px 30px 40px 50px;
+ }
+
+main-wrapp {
+ width: 1200px;
+ margin:0 auto;
+ }
